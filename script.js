@@ -1,4 +1,5 @@
 
 function showIt () {
-    alert("Hello world")
+    let myAlert = document.getElementById("a-text").value;
+    alert(myAlert);
 };
