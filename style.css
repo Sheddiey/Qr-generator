@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(6, 59, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#a-text{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea{
+    border: 5px solid rgb(255, 223, 12);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+    border: 5px solid rgb(4, 197, 240);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:hover{
+    background-color: transparent;
+}
