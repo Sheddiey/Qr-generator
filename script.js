@@ -1,5 +1,5 @@
 
 function showIt () {
-    let myAlert = document.getElementById("a-text").value;
+    let myAlert = document.getElementById("alert").src;
     alert(myAlert);
 };
