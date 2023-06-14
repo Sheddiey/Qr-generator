@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR code generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZGuNHb-mcheI1wiD8xA66SYHIc5Mk23il7kPzef8pNw&s"
+      type="image/icon type"
+    />
+  </head>
+  <body>
     <div class="grid">
-        <script src="script.js"></script>
-        <h2 align = "center">Qr Code Generator</h2>
-        <center><img src="" id="img"></center>
+      <script src="script.js"></script>
+      <h2 align="center">Qr Code Generator</h2>
+      <center><img src="" id="img" /></center>
 
-        <select id="size">
-            <option value="100">100x100</option>
-            <option value="150">150x150</option>
-            <option value="200">200x200</option>
-            <option value="250" selected>250x250</option>
-            <option value="300">300x300</option>
-        </select>
-        <br><br>
-        <textarea placeholder="Enter Text" id="qrtext"></textarea>
-        <br><br>
-        <input type="submit" value="Generate" onclick="genQr()">
-        <p>Developed by Shadrack Cheruiyot</p>
-
-
-
+      <select id="size">
+        <option value="100">100x100</option>
+        <option value="150">150x150</option>
+        <option value="200">200x200</option>
+        <option value="250" selected>250x250</option>
+        <option value="300">300x300</option>
+      </select>
+      <br /><br />
+      <textarea placeholder="Enter Text" id="qrtext"></textarea>
+      <br /><br />
+      <input type="submit" value="Generate" onclick="genQr()" />
+      <p>Developed by Shadrack Cheruiyot</p>
     </div>
-</body>
+  </body>
 </html>
