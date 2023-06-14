@@ -26,5 +26,6 @@ input{
 }
 
 input:hover{
-    background-color: transparent;
+    background-color: lightblue;
+    color: white;
 }
