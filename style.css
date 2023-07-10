@@ -38,3 +38,8 @@ p{
     border: 5px solid yellow;
     border-radius: 10px;
 }
+
+img{
+    height: 200px;
+    width: 500px;
+}
